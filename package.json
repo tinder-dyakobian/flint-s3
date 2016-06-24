@@ -1,0 +1,26 @@
+{
+  "name": "flint-s3",
+  "version": "1.0.0",
+  "description": "An AWS S3 implementation",
+  "main": "S3.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleef/flint-s3.git"
+  },
+  "author": "Tom Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tleef/flint-s3/issues"
+  },
+  "homepage": "https://github.com/tleef/flint-s3#readme",
+  "devDependencies": {
+    "flint": "github:tleef/flint",
+    "jest-cli": "^13.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.4.2"
+  }
+}
